@@ -1,0 +1,17 @@
+📌 Detección de sobreajuste estructural
+Implementa:
+detectar_sobreajuste(X, y)
+La función debe:
+
+Entrenar:
+
+DecisionTreeClassifier(max_depth=None, random_state=42)
+
+DecisionTreeClassifier(max_depth=2, random_state=42)
+
+Calcular accuracy en los mismos datos (sin train/test split).
+
+Retornar:
+
+True  si la diferencia de accuracy es mayor a 0.15
+False en caso contrario
