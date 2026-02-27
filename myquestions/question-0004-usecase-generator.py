@@ -33,12 +33,10 @@ if __name__ == "__main__":
     entrada, salida = generar_caso_de_uso_comparar_svc_lineal_vs_rbf()
     
     print("===== INPUT =====")
-    print("X completo:")
+    print("X:")
     print(entrada["X"])
-    print("\nShape X:", entrada["X"].shape)
-    print("\ny completo:")
+    print("\ny:")
     print(entrada["y"])
-    print("Shape y:", entrada["y"].shape)
     
     print("\n===== OUTPUT ESPERADO =====")
-    print("Modelo con mejor desempeño:", salida)
+    print(salida)
