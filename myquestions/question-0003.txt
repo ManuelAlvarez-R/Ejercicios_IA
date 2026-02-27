@@ -1,6 +1,13 @@
-📌 Detección de sobreajuste estructural
-Implementa:
+Nombre de la función
 detectar_sobreajuste(X, y)
+📌 Descripción
+
+Se reciben:
+
+X → matriz de características (numpy array)
+
+y → vector de etiquetas (numpy array)
+
 La función debe:
 
 Entrenar:
@@ -9,9 +16,8 @@ DecisionTreeClassifier(max_depth=None, random_state=42)
 
 DecisionTreeClassifier(max_depth=2, random_state=42)
 
-Calcular accuracy en los mismos datos (sin train/test split).
+Calcular accuracy en los mismos datos.
 
-Retornar:
+Si la diferencia de accuracy es mayor que 0.15, retornar True.
 
-True  si la diferencia de accuracy es mayor a 0.15
-False en caso contrario
+En caso contrario, retornar False.
