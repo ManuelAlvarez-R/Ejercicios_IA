@@ -29,12 +29,10 @@ if __name__ == "__main__":
     entrada, salida = generar_caso_de_uso_detectar_sobreajuste()
     
     print("===== INPUT =====")
-    print("X completo:")
+    print("X:")
     print(entrada["X"])
-    print("\nShape X:", entrada["X"].shape)
-    print("\ny completo:")
+    print("\ny:")
     print(entrada["y"])
-    print("Shape y:", entrada["y"].shape)
     
     print("\n===== OUTPUT ESPERADO =====")
-    print("¿Existe sobreajuste?:", salida)
+    print(salida)
