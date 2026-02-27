@@ -1,6 +1,13 @@
-📌 Comparación de fronteras lineales vs no lineales
-Implementa:
+Nombre de la función
 comparar_svc_lineal_vs_rbf(X, y)
+📌 Descripción
+
+Se reciben:
+
+X → matriz numpy
+
+y → vector numpy
+
 La función debe:
 
 Entrenar:
@@ -13,6 +20,8 @@ Calcular accuracy en los mismos datos.
 
 Retornar:
 
-"linear" si el lineal tiene mayor accuracy
-"rbf" si el rbf tiene mayor accuracy
-"empate" si son iguales
+"linear" si el modelo lineal tiene mayor accuracy
+
+"rbf" si el modelo RBF tiene mayor accuracy
+
+"empate" si ambos son iguales
