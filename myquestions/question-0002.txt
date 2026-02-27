@@ -1,20 +1,26 @@
-Identificación de secuencias alternantes perfectas
-Implementa:
+Nombre de la función
 detectar_secuencia_alternante(df)
+📌 Descripción
+
+Se recibe un DataFrame con columnas:
+
+"sensor_id" (int)
+
+"orden" (int)
+
+"estado" (0 o 1)
+
 La función debe:
 
-Recibir un DataFrame con columnas:
-
-"sensor_id"
-
-"orden"
-
-"estado" (valores 0 o 1)
+No modificar el DataFrame original.
 
 Para cada sensor:
 
 Ordenar por "orden".
 
-Verificar si los estados alternan perfectamente (0-1-0-1... o 1-0-1-0...)
+Verificar que los valores de "estado" alternen perfectamente
+(ejemplo válido: 0-1-0-1-0 o 1-0-1-0-1).
 
-Retornar una lista ordenada de sensores que cumplen alternancia perfecta en toda la secuencia.
+Si toda la secuencia alterna correctamente, el sensor es válido.
+
+Retornar una lista ordenada de sensores válidos.
