@@ -1,0 +1,18 @@
+📌 Comparación de fronteras lineales vs no lineales
+Implementa:
+comparar_svc_lineal_vs_rbf(X, y)
+La función debe:
+
+Entrenar:
+
+SVC(kernel="linear")
+
+SVC(kernel="rbf")
+
+Calcular accuracy en los mismos datos.
+
+Retornar:
+
+"linear" si el lineal tiene mayor accuracy
+"rbf" si el rbf tiene mayor accuracy
+"empate" si son iguales
