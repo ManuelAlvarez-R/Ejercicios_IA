@@ -40,9 +40,11 @@ def generar_caso_de_uso_detectar_sesiones_irregulares():
 if __name__ == "__main__":
     entrada, salida = generar_caso_de_uso_detectar_sesiones_irregulares()
     
-    print("=== INPUT ===")
-    print("Umbral:", entrada["umbral_minutos"])
-    print(entrada["df"].head())
+    print("===== INPUT =====")
+    print("Umbral_minutos:", entrada["umbral_minutos"])
+    print("\nDataFrame completo:")
+    print(entrada["df"])
+    print("\nShape:", entrada["df"].shape)
     
-    print("\n=== OUTPUT ESPERADO ===")
-    print(salida)
+    print("\n===== OUTPUT ESPERADO =====")
+    print("Usuarios con irregularidades:", salida)
