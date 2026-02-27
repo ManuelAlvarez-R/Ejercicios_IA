@@ -42,9 +42,7 @@ if __name__ == "__main__":
     
     print("===== INPUT =====")
     print("Umbral_minutos:", entrada["umbral_minutos"])
-    print("\nDataFrame completo:")
     print(entrada["df"])
-    print("\nShape:", entrada["df"].shape)
     
     print("\n===== OUTPUT ESPERADO =====")
-    print("Usuarios con irregularidades:", salida)
+    print(salida)
