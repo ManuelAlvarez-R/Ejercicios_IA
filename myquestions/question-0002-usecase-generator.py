@@ -32,9 +32,7 @@ if __name__ == "__main__":
     entrada, salida = generar_caso_de_uso_detectar_secuencia_alternante()
     
     print("===== INPUT =====")
-    print("\nDataFrame completo:")
     print(entrada["df"])
-    print("\nShape:", entrada["df"].shape)
     
     print("\n===== OUTPUT ESPERADO =====")
-    print("Sensores con alternancia perfecta:", salida)
+    print(salida)
