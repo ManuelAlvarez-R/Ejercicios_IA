@@ -1,1 +1,25 @@
+PREGUNTA 1 — Pandas
+📌 Detección de sesiones con tiempo acumulado irregular
+Implementa la función:
+detectar_sesiones_irregulares(df, umbral_minutos)
+La función debe:
 
+Recibir un DataFrame df con columnas:
+
+"usuario_id" (int)
+
+"timestamp" (datetime)
+
+"duracion_minutos" (float)
+
+Para cada usuario:
+
+Ordenar por timestamp.
+
+Calcular la suma acumulada de "duracion_minutos".
+
+Detectar si en algún punto la diferencia entre dos acumulados consecutivos supera umbral_minutos * 2.
+
+Retornar una lista ordenada de usuario_id que presentan al menos una irregularidad.
+
+⚠️ No modificar el DataFrame original.
